@@ -1,52 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { HeaderpageComponent } from '../components/headerpage/headerpage.component';
 
 
-import { HeaderComponent } from '../components/header/header.component';
-import { HomeComponent } from '../components/home/home.component';
-import { AboutComponent } from '../components/about/about.component';
-import { ContactComponent } from '../components/contact/contact.component';
-
-
-import { ActionGamesComponent } from '../components/action-games/action-games.component';
-import { DrivingGamesComponent } from '../components/driving-games/driving-games.component';
-import { FightingGamesComponent } from '../components/fighting-games/fighting-games.component';
-import { MultiplayerGamesComponent } from '../components/multiplayer-games/multiplayer-games.component';
-
-
-import { ActionGame1Component } from '../components/action-games/actionList/action-game1/action-game1.component';
-import { ActionGame2Component } from '../components/action-games/actionList/action-game2/action-game2.component';
-import { ActionGame3Component } from '../components/action-games/actionList/action-game3/action-game3.component';
-import { ActionGame4Component } from '../components/action-games/actionList/action-game4/action-game4.component';
-import { ActionGame5Component } from '../components/action-games/actionList/action-game5/action-game5.component';
-
-
-import { DrivingGame1Component } from '../components/driving-games/drivingList/driving-game1/driving-game1.component';
-import { DrivingGame2Component } from '../components/driving-games/drivingList/driving-game2/driving-game2.component';
-import { DrivingGame3Component } from '../components/driving-games/drivingList/driving-game3/driving-game3.component';
-import { DrivingGame4Component } from '../components/driving-games/drivingList/driving-game4/driving-game4.component';
-import { DrivingGame5Component } from '../components/driving-games/drivingList/driving-game5/driving-game5.component';
-
-
-import { FightingGame1Component } from '../components/fighting-games/fightingList/fighting-game1/fighting-game1.component';
-import { FightingGame2Component } from '../components/fighting-games/fightingList/fighting-game2/fighting-game2.component';
-import { FightingGame3Component } from '../components/fighting-games/fightingList/fighting-game3/fighting-game3.component';
-import { FightingGame4Component } from '../components/fighting-games/fightingList/fighting-game4/fighting-game4.component';
-import { FightingGame5Component } from '../components/fighting-games/fightingList/fighting-game5/fighting-game5.component';
-
-
-import { MultiplayerGame1Component } from '../components/multiplayer-games/multiplayerList/multiplayer-game1/multiplayer-game1.component';
-import { MultiplayerGame2Component } from '../components/multiplayer-games/multiplayerList/multiplayer-game2/multiplayer-game2.component';
-import { MultiplayerGame3Component } from '../components/multiplayer-games/multiplayerList/multiplayer-game3/multiplayer-game3.component';
-import { MultiplayerGame4Component } from '../components/multiplayer-games/multiplayerList/multiplayer-game4/multiplayer-game4.component';
-import { MultiplayerGame5Component } from '../components/multiplayer-games/multiplayerList/multiplayer-game5/multiplayer-game5.component';
-
-
-const routes: Routes [
-
-    {path: "home" component: HomeComponent};
-
+const routes: Routes = [
+    { path: "headerpage", component: HeaderpageComponent}
+    
 ];
 
 @NgModule ({
@@ -58,40 +18,114 @@ const routes: Routes [
 
 export class AppRoutingModule {}
 
-export const routingComponents = [
-    HeaderComponent,
-    HomeComponent,
-    AboutComponent,
-    ContactComponent,
-    
-    ActionGamesComponent,
-    DrivingGamesComponent,
-    FightingGamesComponent,
-    MultiplayerGamesComponent,
-    
 
-    ActionGame1Component,
-    ActionGame2Component,
-    ActionGame3Component,
-    ActionGame4Component,
-    ActionGame5Component,
 
-    DrivingGame1Component,
-    DrivingGame2Component,
-    DrivingGame3Component,
-    DrivingGame4Component,
-    DrivingGame5Component,
+// import { HomepageComponent } from '../components/homepage/homepage.component';
 
-    FightingGame1Component,
-    FightingGame2Component,
-    FightingGame3Component,
-    FightingGame4Component,
-    FightingGame5Component,
+// import { ActiongamespageComponent } from '../components/actiongamespage/actiongamespage.component';
+// import { DrivinggamespageComponent } from '../components/drivinggamespage/drivinggamespage.component';
+// import { FightinggamespageComponent } from '../components/fightinggamespage/fightinggamespage.component';
+// import { MultiplayergamespageComponent } from '../components/multiplayergamespage/multiplayergamespage.component';
 
-    MultiplayerGame1Component,
-    MultiplayerGame2Component,
-    MultiplayerGame3Component,
-    MultiplayerGame4Component,
-    MultiplayerGame5Component,
-]
+// import { Action1gameComponent } from '../components/actiongamespage/actiongamesList/action1game/action1game.component';
+// import { Action2gameComponent } from '../components/actiongamespage/actiongamesList/action2game/action2game.component';
+// import { Action3gameComponent } from '../components/actiongamespage/actiongamesList/action3game/action3game.component';
+// import { Action4gameComponent } from '../components/actiongamespage/actiongamesList/action4game/action4game.component';
+// import { Action5gameComponent } from '../components/actiongamespage/actiongamesList/action5game/action5game.component';
+
+// import { Driving1gameComponent } from '../components/drivinggamespage/drivinggamesList/driving1game/driving1game.component';
+// import { Driving2gameComponent } from '../components/drivinggamespage/drivinggamesList/driving2game/driving2game.component';
+// import { Driving3gameComponent } from '../components/drivinggamespage/drivinggamesList/driving3game/driving3game.component';
+// import { Driving4gameComponent } from '../components/drivinggamespage/drivinggamesList/driving4game/driving4game.component';
+// import { Driving5gameComponent } from '../components/drivinggamespage/drivinggamesList/driving5game/driving5game.component';
+
+// import { Fighting1gameComponent } from '../components/fightinggamespage/fightinggamesList/fighting1game/fighting1game.component';
+// import { Fighting2gameComponent } from '../components/fightinggamespage/fightinggamesList/fighting2game/fighting2game.component';
+// import { Fighting3gameComponent } from '../components/fightinggamespage/fightinggamesList/fighting3game/fighting3game.component';
+// import { Fighting4gameComponent } from '../components/fightinggamespage/fightinggamesList/fighting4game/fighting4game.component';
+// import { Fighting5gameComponent } from '../components/fightinggamespage/fightinggamesList/fighting5game/fighting5game.component';
+
+// import { Multiplayer1gameComponent } from '../components/multiplayergamespage/multiplayergamesList/multiplayer1game/multiplayer1game.component';
+// import { Multiplayer2gameComponent } from '../components/multiplayergamespage/multiplayergamesList/multiplayer2game/multiplayer2game.component';
+// import { Multiplayer3gameComponent } from '../components/multiplayergamespage/multiplayergamesList/multiplayer3game/multiplayer3game.component';
+// import { Multiplayer4gameComponent } from '../components/multiplayergamespage/multiplayergamesList/multiplayer4game/multiplayer4game.component';
+// import { Multiplayer5gameComponent } from '../components/multiplayergamespage/multiplayergamesList/multiplayer5game/multiplayer5game.component';
+
+
+
+
+
+    // { path: "home": component: HomeComponent },
+    // { path: "about": component: AboutComponent },
+    // { path: "contact": component: ContactComponent },
+
+
+
+    // { path: "action-games", component: ActionGamesComponent },
+    // { path: "driving-games", component: DrivingGamesComponent },
+    // { path: "fighting-games", component: FightingGamesComponent },
+    // { path: "multiplayer-games", component: MultiplayerGamesComponent },
+
+
+    // { path: "actiongame1", component: ActionGame1Component },
+    // { path: "actionGame2", component: ActionGame2Component },
+    // { path: "actionGame3", component: ActionGame3Component },
+    // { path: "actionGame4", component: ActionGame4Component },
+    // { path: "actionGame5", component: ActionGame5Component },
+
+    // { path: "drivingGame1", component: DrivingGame1Component },
+    // { path: "drivingGame2", component: DrivingGame2Component },
+    // { path: "drivingGame3", component: DrivingGame3Component },
+    // { path: "drivingGame4", component: DrivingGame4Component },
+    // { path: "drivingGame5", component: DrivingGame5Component },
+
+    // { path: "fightingGame1", component: FightingGame1Component },
+    // { path: "fightingGame2", component: FightingGame2Component },
+    // { path: "fightingGame3", component: FightingGame3Component },
+    // { path: "fightingGame4", component: FightingGame4Component },
+    // { path: "fightingGame5", component: FightingGame5Component },
+
+    // { path: "multiplayerGame1", component: MultiplayerGame1Component },
+    // { path: "multiplayerGame2", component: MultiplayerGame2Component },
+    // { path: "multiplayerGame3", component: MultiplayerGame3Component },
+    // { path: "multiplayerGame4", component: MultiplayerGame4Component },
+    // { path: "multiplayerGame5", component: MultiplayerGame5Component },
+
+
+
+
+
+// export const routingComponents = [
+//     HeaderpageComponent,
+//     HomepageComponent,
+
+//     ActiongamespageComponent,
+//     DrivinggamespageComponent,
+//     FightinggamespageComponent,
+//     MultiplayergamespageComponent,
+
+//     Action1gameComponent,
+//     Action2gameComponent,
+//     Action3gameComponent,
+//     Action4gameComponent,
+//     Action5gameComponent,
+
+//     Driving1gameComponent,
+//     Driving2gameComponent,
+//     Driving3gameComponent,
+//     Driving4gameComponent,
+//     Driving5gameComponent,
+
+//     Fighting1gameComponent,
+//     Fighting2gameComponent,
+//     Fighting3gameComponent,
+//     Fighting4gameComponent,
+//     Fighting5gameComponent,
+
+//     Multiplayer1gameComponent,
+//     Multiplayer2gameComponent,
+//     Multiplayer3gameComponent,
+//     Multiplayer4gameComponent,
+//     Multiplayer5gameComponent,
+// ]
 
