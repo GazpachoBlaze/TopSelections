@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./actiongamespage.component.css']
 })
 export class ActiongamespageComponent {
-
+  title = "hello"
 }
