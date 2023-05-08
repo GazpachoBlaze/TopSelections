@@ -1,0 +1,32 @@
+.actiongameFlex {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.actionName {
+    background-color: blue;
+    height: 100%;
+}
+
+.actionWord {
+    background-color: green;
+    height: 100%;
+}
+
+.actionImage {
+    background-color: yellow;
+    height: 100%;
+}
