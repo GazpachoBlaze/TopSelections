@@ -3,13 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HeaderpageComponent } from '../components/headerpage/headerpage.component';
 import { HomepageComponent } from '../components/homepage/homepage.component';
+import { AboutpageComponent } from '../components/aboutpage/aboutpage.component';
 
 import { ActiongamespageComponent } from '../components/actiongamespage/actiongamespage.component';
-
 import { DrivinggamespageComponent } from '../components/drivinggamespage/drivinggamespage.component';
-
 import { FightinggamespageComponent } from '../components/fightinggamespage/fightinggamespage.component';
-
 import { MultiplayergamespageComponent } from '../components/multiplayergamespage/multiplayergamespage.component';
 
 
@@ -44,6 +42,7 @@ import { Multiplayer5gameComponent } from '../components/multiplayergamespage/mu
 const routes: Routes = [
     { path: "headerpage", component: HeaderpageComponent},
     { path: "homepage", component: HomepageComponent},
+    { path: "aboutpage", component: AboutpageComponent},
 
     { path: "actiongamespage", component: ActiongamespageComponent },
     { path: "drivinggamespage", component: DrivinggamespageComponent },
@@ -87,4 +86,40 @@ const routes: Routes = [
 
 })
 
-export class AppRoutingModule {}
+export class AppRoutingModule { }
+
+export const routingComponents = [
+    HeaderpageComponent,
+    HomepageComponent,
+    AboutpageComponent,
+
+    ActiongamespageComponent,
+    DrivinggamespageComponent,
+    FightinggamespageComponent,
+    MultiplayergamespageComponent,
+
+    Action1gameComponent,
+    Action2gameComponent,
+    Action3gameComponent,
+    Action4gameComponent,
+    Action5gameComponent,
+
+    Driving1gameComponent,
+    Driving2gameComponent,
+    Driving3gameComponent,
+    Driving4gameComponent,
+    Driving5gameComponent,
+
+    Fighting1gameComponent,
+    Fighting2gameComponent,
+    Fighting3gameComponent,
+    Fighting4gameComponent,
+    Fighting5gameComponent,
+
+    Multiplayer1gameComponent,
+    Multiplayer2gameComponent,
+    Multiplayer3gameComponent,
+    Multiplayer4gameComponent,
+    Multiplayer5gameComponent,
+
+]
