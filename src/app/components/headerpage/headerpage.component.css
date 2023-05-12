@@ -1,0 +1,37 @@
+.headerFlex {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.headerWebLogo {
+    background-color: blue;
+    height: 100%;
+    width: 30%;
+    
+}
+
+.headerGamesLogo {
+    background-color: green;
+    height: 100%;
+    width: 30%;
+    
+}
+
+.headerWords {
+    background-color: yellow;
+    height: 100%;
+    
+}
