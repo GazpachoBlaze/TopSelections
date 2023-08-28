@@ -1,0 +1,86 @@
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+
+
+button {
+    border: none;
+    background: none;
+    transition: all 0.25s;
+}
+
+.homeButton {
+    padding: 2px 8px 2px 8px;
+    border: none;
+}
+.homeButton:hover {
+    border-color: #ffffff;
+    color: rgb(230, 0, 200);
+    box-shadow: 0 0.5em 0.5em -0.3em #115778;
+    transform: translateY(-.25em);
+    cursor: pointer;
+}
+
+.actionButton {
+    padding: 2px 8px 2px 8px;
+    border: none;
+}
+.actionButton:hover {
+    border-color: #ffffff;
+    color: rgb(255, 0, 0);
+    box-shadow: 0 0.5em 0.5em -0.3em #115778;
+    transform: translateY(-.25em);
+    cursor: pointer;
+}
+
+.drivingButton {
+    padding: 2px 8px 2px 8px;
+    border: none;
+}
+.drivingButton:hover {
+    border-color: #ffffff;
+    color: rgb(0, 100, 255);
+    box-shadow: 0 0.5em 0.5em -0.3em #115778;
+    transform: translateY(-.25em);
+    cursor: pointer;
+}
+
+.fightingButton {
+    padding: 2px 8px 2px 8px;
+    border: none;
+}
+.fightingButton:hover {
+    border-color: #ffffff;
+    color: rgb(190, 174, 0);
+    box-shadow: 0 0.5em 0.5em -0.3em #115778;
+    transform: translateY(-.25em);
+    cursor: pointer;
+}
+
+.multiplayerButton {
+    padding: 2px 8px 2px 8px;
+    border: none;
+}
+.multiplayerButton:hover {
+    border-color: #ffffff;
+    color: rgb(65, 163, 0);
+    box-shadow: 0 0.5em 0.5em -0.3em #115778;
+    transform: translateY(-.25em);
+    cursor: pointer;
+}
