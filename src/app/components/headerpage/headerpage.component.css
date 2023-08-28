@@ -2,7 +2,11 @@ a {
     text-decoration: none;
 }
 
-nav {
+#siteTitle {
+    font-size: 60px;
+}
+
+#navbar {
     font-size: 1.5em;
     display: flex;
     flex-direction: row;
