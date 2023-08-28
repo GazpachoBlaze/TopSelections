@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HeaderpageComponent } from '../components/headerpage/headerpage.component';
 import { HomepageComponent } from '../components/homepage/homepage.component';
-import { AboutpageComponent } from '../components/aboutpage/aboutpage.component';
 
 import { ActiongamespageComponent } from '../components/actiongamespage/actiongamespage.component';
 import { DrivinggamespageComponent } from '../components/drivinggamespage/drivinggamespage.component';
@@ -42,7 +41,7 @@ import { Multiplayer5gameComponent } from '../components/multiplayergamespage/mu
 const routes: Routes = [
     { path: "headerpage", component: HeaderpageComponent},
     { path: "homepage", component: HomepageComponent},
-    { path: "aboutpage", component: AboutpageComponent},
+
 
     { path: "actiongamespage", component: ActiongamespageComponent },
     { path: "drivinggamespage", component: DrivinggamespageComponent },
@@ -91,7 +90,6 @@ export class AppRoutingModule { }
 export const routingComponents = [
     HeaderpageComponent,
     HomepageComponent,
-    AboutpageComponent,
 
     ActiongamespageComponent,
     DrivinggamespageComponent,
