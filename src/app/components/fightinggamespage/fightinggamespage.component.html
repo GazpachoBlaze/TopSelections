@@ -1,3 +1,80 @@
-<p>fightinggamespage works!</p>
+<div class="yellow">
+
+    <mat-grid-list cols="3">
+
+        <div class="tile1">
+            <mat-grid-tile>
+
+                <div id="left">
+                    <div>
+                        <h1 class="categoryName">Fighting Games</h1>
+                    </div>
+                </div>
+
+                <div id="left">
+
+                    <div class="dropdown">
+
+
+                        <button class="dropbtn">
+                            <p id="fightingChoices">Top 5</p>
+                            <i class="" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="dropdown-content">
+                            <a routerLink="/fightinggame1" routerLinkActive="active"
+                                href="fightingList/fightinggame1/fightinggame1.component.html">Game 1</a>
+                            <a routerLink="/fightinggame2" routerLinkActive="active"
+                                href="fightingList/fightinggame2/fightinggame2.component.html">Game 2</a>
+                            <a routerLink="/fightinggame3" routerLinkActive="active"
+                                href="fightingList/fightinggame3/fightinggame3.component.html">Game 3</a>
+                            <a routerLink="/fightinggame4" routerLinkActive="active"
+                                href="fightingList/fightinggame4/fightinggame4.component.html">Game 4</a>
+                            <a routerLink="/fightinggame5" routerLinkActive="active"
+                                href="fightingList/fightinggame5/fightinggame5.component.html">Game 5</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
+        </div>
+
+        <!-- tile 2 start -->
+        <div class="tile2">
+            <mat-grid-tile>
+
+                <div id="center">
+
+                    <div class="describeGameFighting">
+                        <pre><h4>
+                            why are you still not next to the image hello
+                            this is where i will describe the game a bit
+                        </h4></pre>
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
+        </div>
+
+        <!-- tile 3 start -->
+        <div class="tile3">
+            <mat-grid-tile>
+
+                <div id="right">
+                    <div class="actionImage">
+                        <img src="../../assets/img/ufc.png" height="100%" width="100%">
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
+        </div>
+
+    </mat-grid-list>
+
+</div>
 
 <router-outlet></router-outlet>

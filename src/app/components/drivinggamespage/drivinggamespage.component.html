@@ -1,54 +1,81 @@
-<div class="row">
-    <div class="col-4">
+<div class="blue">
 
-        <div class="navbar">
-            <div class="mainDropdown">
+    <mat-grid-list cols="3">
 
-                <button class="headDropdownButton">
-                    <p class="navNames">Driving</p>
-                    <i></i>
-                </button>
+        <div class="tile1">
+            <mat-grid-tile>
 
-                <div class="mainDropdown-content">
-                    <a routerLink="/driving1game" routerLinkActive="active"
-                        href="/src/app/components/drivinggamespage/drivinggamesList/driving1game/driving1game.component.html">
-                        game 1
-                    </a>
-
-                    <a routerLink="/driving2game" routerLinkActive="active"
-                        href="/src/app/components/drivinggamespage/drivinggamesList/driving2game/driving2game.component.html">
-                        game 2
-                    </a>
-
-                    <a routerLink="/driving3game" routerLinkActive="active"
-                        href="/src/app/components/drivinggamespage/drivinggamesList/driving3game/driving3game.component.html">
-                        game 3
-                    </a>
-
-                    <a routerLink="/driving4game" routerLinkActive="active"
-                        href="/src/app/components/drivinggamespage/drivinggamesList/driving4game/driving4game.component.html">
-                        game 4
-                    </a>
-
-                    <a routerLink="/driving5game" routerLinkActive="active"
-                        href="/src/app/components/drivinggamespage/drivinggamesList/driving5game/driving5game.component.html">
-                        game 5
-                    </a>
+                <div id="left">
+                    <div>
+                        <h1 class="categoryName">Driving Games</h1>
+                    </div>
                 </div>
-            </div>
+
+                <div id="left">
+
+                    <div class="dropdown">
+
+
+                        <button class="dropbtn">
+                            <p id="drivingChoices">Top 5</p>
+                            <i class="" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="dropdown-content">
+                            <a routerLink="/drivinggame1" routerLinkActive="active"
+                                href="drivingList/drivinggame1/drivinggame1.component.html">Game 1</a>
+                            <a routerLink="/drivinggame2" routerLinkActive="active"
+                                href="drivingList/drivinggame2/drivinggame2.component.html">Game 2</a>
+                            <a routerLink="/drivinggame3" routerLinkActive="active"
+                                href="drivingList/drivinggame3/drivinggame3.component.html">Game 3</a>
+                            <a routerLink="/drivinggame4" routerLinkActive="active"
+                                href="drivingList/drivinggame4/drivinggame4.component.html">Game 4</a>
+                            <a routerLink="/drivinggame5" routerLinkActive="active"
+                                href="drivingList/drivinggame5/drivinggame5.component.html">Game 5</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
         </div>
 
+        <!-- tile 2 start -->
+        <div class="tile2">
+            <mat-grid-tile>
 
-    </div>
+                <div id="center">
 
-    <div class="col-4">
-        <p>1</p>
-    </div>
+                    <div class="describeGameDriving">
+                        <pre><h4>
+                            why are you still not next to the image hello
+                            this is where i will describe the game a bit
+                        </h4></pre>
 
-    <div class="col-4">
-        <img class="forza" src="../../../assets/img/Driving/Forza/forza.png" alt="forza">
-    </div>
+                        <p>test</p>
+                    </div>
 
+                </div>
+
+            </mat-grid-tile>
+        </div>
+
+        <!-- tile 3 start -->
+        <div class="tile3">
+            <mat-grid-tile>
+
+                <div id="right">
+                    <div class="drivingImage">
+                        <img src="../../assets/img/forza.png" height="100%" width="100%">
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
+        </div>
+
+    </mat-grid-list>
 
 </div>
 

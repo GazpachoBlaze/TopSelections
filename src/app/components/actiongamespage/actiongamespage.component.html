@@ -1,31 +1,105 @@
-<div class="actiongameFlex">
-    <div class="row">
+<div class="red">
 
-        <div class="column">
+    <mat-grid-list cols="3">
 
-            <div class="actionName">
-                <p>ACTION GAMES</p>
-            </div>
+        <div class="tile1">
+            <mat-grid-tile height="100%" width="40%">
 
+                <div id="left">
+                    <div>
+                        <h1 class="categoryName">Action Games</h1>
+                    </div>
+                </div>
+
+                <div id="left">
+
+                    <div class="dropdown">
+
+
+                        <button class="dropbtn">
+                            <p id="actionChoices">Top 5</p>
+                            <i class="" aria-hidden="true"></i>
+                        </button>
+
+                        <div class="dropdown-content">
+                            <a routerLink="/actiongame1" routerLinkActive="active"
+                                href="actionList/actiongame1/actiongame1.component.html">Star Wars</a>
+                            <a routerLink="/actiongame2" routerLinkActive="active"
+                                href="actionList/actiongame2/actiongame2.component.html">Fortnite</a>
+                            <a routerLink="/actiongame3" routerLinkActive="active"
+                                href="actionList/actiongame3/actiongame3.component.html">Apex Legends</a>
+                            <a routerLink="/actiongame4" routerLinkActive="active"
+                                href="actionList/actiongame4/actiongame4.component.html">Valorant</a>
+                            <a routerLink="/actiongame5" routerLinkActive="active"
+                                href="actionList/actiongame5/actiongame5.component.html">Rocket League</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
         </div>
 
-        <div class="column">
+        <!-- tile 2 start -->
+        <div class="tile2">
+            <mat-grid-tile height="100%" width="40%">
 
-            <div class="actionWord">
-                <p>Description of action games</p>
-            </div>
+                <div id="center">
 
+                    <div class="describeGameAction">
+                        <p id="ActiongameInfo">
+                            Looking for something that will require a sharp mind, a keen eye, and has the ability to
+                            fufill your boredom?<br>
+                            <br>ACTION GAMES ARE HERE FOR YOU!!! You will find MANY different styles of gameplay that
+                            will keep you entertained
+                            and full of excitement.
+                        </p>
+                    </div>
+
+                </div>
+
+            </mat-grid-tile>
         </div>
 
-        <div class="column">
+        <!-- tile 3 start -->
+        <div class="tile3">
+            <mat-grid-tile>
 
-            <div class="actionImage">
-                <p>Picture of action games</p>
-            </div>
-            
+                <!-- <carousel [cellsToShow]="1" [autoplay]="true" [autoplayInterval]="4000" [height]="600">
+                    <div class="carousel-cell">
+                        <img src="../../assets/img/Action/StarWars/StarWarsHome.png">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="../../assets/img/Action/Fortnite/Fort4.jpg">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="../../assets/img/Action/Apex/revHeart.jpg">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="../../assets/img/Action/Valorant/valBot.jpg">
+                    </div>
+
+                    <div class="carousel-cell">
+                        <img src="../../assets/img/Action/RocketLeague/RLGoal.jpg">
+                    </div>
+
+
+                </carousel> -->
+
+                <!-- <div id="right">
+                    <div class="actionImage">
+                        <img src="../../assets/img/hotdog_Moment.jpg" height="100%" width="100%">
+                    </div>
+                </div> -->
+
+            </mat-grid-tile>
         </div>
-        
-    </div>
+
+    </mat-grid-list>
+
 </div>
-
 <router-outlet></router-outlet>
