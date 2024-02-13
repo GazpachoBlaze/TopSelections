@@ -1,81 +1,33 @@
 <div class="green">
 
-    <mat-grid-list cols="3">
-
-        <div class="tile1">
-            <mat-grid-tile>
-
-                <div id="left">
-                    <div>
-                        <h1 class="categoryName">Multiplayer Games</h1>
-                    </div>
+    <div class="row">
+        <div class="col-4">
+            <div id="left">
+                <div>
+                    <h1 class="categoryName">Multiplayer Games</h1>
                 </div>
-
-                <div id="left">
-
-                    <div class="dropdown">
-
-
-                        <button class="dropbtn">
-                            <p id="multiplayerChoices">Top 5</p>
-                            <i class="" aria-hidden="true"></i>
-                        </button>
-
-                        <div class="dropdown-content">
-                            <a routerLink="/multiplayergame1" routerLinkActive="active"
-                                href="multiplayerList/multiplayergame1/multiplayergame1.component.html">Minecraft</a>
-                            <a routerLink="/multiplayergame2" routerLinkActive="active"
-                                href="multiplayerList/multiplayergame2/multiplayergame2.component.html">Puzzle
-                                Together</a>
-                            <a routerLink="/multiplayergame3" routerLinkActive="active"
-                                href="multiplayerList/multiplayergame3/multiplayergame3.component.html">Dinkum</a>
-                            <a routerLink="/multiplayergame4" routerLinkActive="active"
-                                href="multiplayerList/multiplayergame4/multiplayergame4.component.html">PlateUp</a>
-                            <a routerLink="/multiplayergame5" routerLinkActive="active"
-                                href="multiplayerList/multiplayergame5/multiplayergame5.component.html">Grounded</a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </mat-grid-tile>
+            </div>
         </div>
+        <div class="col-4">
+            <div id="center">
 
-        <!-- tile 2 start -->
-        <div class="tile2">
-            <mat-grid-tile>
-
-                <div id="center">
-
-                    <div class="describeGameMultiplayer">
-                        <pre><h4>
-                            why are you still not next to the image hello
-                            this is where i will describe the game a bit
-                        </h4></pre>
-                    </div>
-
+                <div class="describeGameMultiplayer">
+                    <p id="MultiplayergameInfo">
+                        why are you still not next to the image hello
+                        this is where i will describe the game a bit
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div id="right">
+                <div class="multiplayerImage">
+                    <img src="../../assets/img/Multiplayer/Minecraft/MineVillageNight.png" height="100%" width="100%">
                 </div>
 
-            </mat-grid-tile>
+            </div>
         </div>
-
-        <!-- tile 3 start -->
-        <div class="tile3">
-            <mat-grid-tile>
-
-                <div id="right">
-                    <div class="multiplayerImage">
-                        <img src="../../assets/img/Multiplayer/Minecraft/MineVillageNight.png" height="100%"
-                            width="100%">
-                    </div>
-
-                </div>
-
-            </mat-grid-tile>
-        </div>
-
-    </mat-grid-list>
-
+    </div>
 </div>
+
 <router-outlet></router-outlet>
