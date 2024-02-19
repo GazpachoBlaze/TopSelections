@@ -1,17 +1,40 @@
 .red {
     padding-bottom: 8%;
     border: 10px solid rgb(255, 0, 0);
+    height: 800px;
 }
 
 .categoryName {
-    
+    text-align: center;
+    transform: translateY(150px);
     
 }
 
+.gamelistButtons {
+    transform: translate(220px, 170px);
+}
+
+.gameButton1 {
+    margin-bottom: 50px;
+}
+.gameButton2 {
+    margin-bottom: 50px;
+}
+.gameButton3 {
+    margin-bottom: 50px;
+}
+.gameButton4 {
+    margin-bottom: 50px;
+}
+.gameButton5 {
+    
+}
 
 #ActiongameInfo {
     font-size: 20px;
     padding-right: 50px;
+    text-align: center;
+    transform: translateY(150px);
 }
 
 #actionChoices {
@@ -19,10 +42,13 @@
 }
 
 
-.actionImage {
+.drivingImage {
     float: right;
     flex-basis: 40%;
     max-width: 100%;
+    transform: translateY(150px);
+
+
 }
 
 .describeGameAction {

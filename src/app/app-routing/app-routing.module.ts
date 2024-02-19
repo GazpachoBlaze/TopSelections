@@ -43,10 +43,10 @@ const routes: Routes = [
     { path: "homepage", component: HomepageComponent},
 
 
-    { path: "actiongamespage", component: ActiongamespageComponent },
-    { path: "drivinggamespage", component: DrivinggamespageComponent },
-    { path: "fightinggamespage", component: FightinggamespageComponent },
-    { path: "multiplayergamespage", component: MultiplayergamespageComponent },
+    { path: "actiongames", component: ActiongamespageComponent },
+    { path: "drivinggames", component: DrivinggamespageComponent },
+    { path: "fightinggames", component: FightinggamespageComponent },
+    { path: "multiplayergames", component: MultiplayergamespageComponent },
 
 
     { path: "action1game", component: Action1gameComponent },
