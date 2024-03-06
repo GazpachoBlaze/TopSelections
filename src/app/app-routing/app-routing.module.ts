@@ -49,11 +49,11 @@ const routes: Routes = [
     { path: "multiplayergames", component: MultiplayergamespageComponent },
 
 
-    { path: "action1game", component: Action1gameComponent },
-    { path: "action2game", component: Action2gameComponent },
-    { path: "action3game", component: Action3gameComponent },
-    { path: "action4game", component: Action4gameComponent },
-    { path: "action5game", component: Action5gameComponent },
+    { path: "starwars", component: Action1gameComponent },
+    { path: "fortnite", component: Action2gameComponent },
+    { path: "apexlegends", component: Action3gameComponent },
+    { path: "valorant", component: Action4gameComponent },
+    { path: "rocketleague", component: Action5gameComponent },
 
 
     { path: "driving1game", component: Driving1gameComponent },
