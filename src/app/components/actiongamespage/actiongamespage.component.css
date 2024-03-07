@@ -11,23 +11,24 @@
 }
 
 .gamelistButtons {
-    transform: translate(220px, 170px);
+    transform: translate(250px, 200px);
 }
 
+
 .gameButton1 {
-    margin-bottom: 50px;
+    transform: rotate(8deg);
 }
 .gameButton2 {
-    margin-bottom: 50px;
+    transform: rotate(8deg);
 }
 .gameButton3 {
-    margin-bottom: 50px;
+    transform: rotate(-8deg);
 }
 .gameButton4 {
-    margin-bottom: 50px;
+    transform: rotate(8deg);
 }
 .gameButton5 {
-    
+    transform: rotate(-8deg);
 }
 
 #ActiongameInfo {
