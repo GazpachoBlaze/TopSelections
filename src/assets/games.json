@@ -16,5 +16,11 @@
       "name": "Minecraft",
       "description": "A popular sandbox game that lets you build and explore a blocky 3D world.",
       "imageUrl": "https://source.unsplash.com/1600x900/?minecraft"
+    },
+    {
+      "id": 4,
+      "name": "PlateUp",
+      "description": "A popular sandbox game that lets you build and explore a blocky 3D world.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?minecraft"
     }
   ]
