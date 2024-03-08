@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Super Mario Bros",
+      "description": "A classic platform game featuring the iconic Mario character.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?super-mario-bros"
+    },
+    {
+      "id": 2,
+      "name": "The Legend of Zelda",
+      "description": "An epic fantasy action-adventure game with a rich story and engaging gameplay.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?the-legend-of-zelda"
+    },
+    {
+      "id": 3,
+      "name": "Minecraft",
+      "description": "A popular sandbox game that lets you build and explore a blocky 3D world.",
+      "imageUrl": "https://source.unsplash.com/1600x900/?minecraft"
+    }
+  ]

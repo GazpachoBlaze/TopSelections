@@ -1,3 +1,8 @@
+<ul>
+    <li *ngFor="let gameItem of gameItems">
+        {{ gameItem.name }} - {{ gameItem.description }}
+    </li>
+</ul>
 <div class="red">
 
     <div class="row">
@@ -7,7 +12,9 @@
                     <h1 class="categoryName">Action Games</h1>
                 </div>
 
-                <div class="gamelistButtons">
+
+
+                <!-- <div class="gamelistButtons">
                     <div class="gameButton1">
                         <a routerLink="/starwars" routerLinkActive="active"
                             href="../actiongamespage/actiongamesList/action1game/action1game.component.html">
@@ -47,7 +54,7 @@
                                 Rocket League</button>
                         </a>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -77,7 +84,5 @@
     </div>
 
 </div>
-
-<script src="../../db.json"></script>
 
 <router-outlet></router-outlet>
