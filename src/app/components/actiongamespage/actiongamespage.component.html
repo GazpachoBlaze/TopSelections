@@ -1,62 +1,16 @@
 <div class="red">
+    <!-- {{ gameItem.name1 }} -->
+    <!-- {{ gameItem.description }} -->
+    <!-- <img [src]="gameItem.imageUrl" alt=""> -->
 
-    <div class="row">
+
+    <h1 class="categoryName">Action Games</h1>
+
+    <div *ngFor="let gameItem of gameItems" class="row">
         <div class="col-4">
             <div id="left">
-                <div>
-                    <h1 class="categoryName">Action Games</h1>
-
-                </div>
-
-
-
                 <div class="gamelistButtons">
-
-                    <ul>
-                        <li *ngFor="let gameItem of gameItems">
-                            {{ gameItem.name }} <!--  {{ gameItem.description }} -->
-                        </li>
-                    </ul>
-
-                    <!-- <div class="gameButton1">
-                        <a routerLink="/starwars" routerLinkActive="active"
-                            href="../actiongamespage/actiongamesList/action1game/action1game.component.html">
-                            <button class="homieButtons" id="">
-                                Star Wars</button>
-                        </a>
-                    </div>
-
-                    <div class="gameButton2">
-                        <a routerLink="/fortnite" routerLinkActive="active"
-                            href="../actiongamespage/actiongamesList/action2game/action2game.component.html">
-                            <button class="homieButtons" id="">
-                                Fortnite</button>
-                        </a>
-                    </div>
-
-                    <div class="gameButton3">
-                        <a routerLink="/apexlegends" routerLinkActive="active"
-                            href="../actiongamespage/actiongamesList/action3game/action3game.component.html">
-                            <button class="homieButtons" id="">
-                                Apex Legends</button>
-                        </a>
-                    </div>
-
-                    <div class="gameButton4">
-                        <a routerLink="/valorant" routerLinkActive="active"
-                            href="../actiongamespage/actiongamesList/action4game/action4game.component.html">
-                            <button class="homieButtons" id="">
-                                Valorant</button>
-                        </a>
-                    </div>
-
-                    <div class="gameButton5">
-                        <a routerLink="/rocketleague" routerLinkActive="active"
-                            href="../actiongamespage/actiongamesList/action5game/action5game.component.html">
-                            <button class="homieButtons" id="">
-                                Rocket League</button>
-                        </a>
-                    </div> -->
+                    {{ gameItem.name1 }}
                 </div>
 
             </div>
@@ -65,23 +19,17 @@
             <div id="center">
 
                 <div class="describeGameAction">
-                    <p id="ActiongameInfo">
-                        Looking for something that will require a sharp mind, a keen eye, and has the ability to
-                        fufill your boredom?<br>
-                        <br>ACTION GAMES ARE HERE FOR YOU!!! You will find MANY different styles of gameplay that
-                        will keep you entertained
-                        and full of excitement.
-                    </p>
+                    <div id="ActiongameInfo">
+                        {{ gameItem.description1 }}
+                    </div>
                 </div>
 
             </div>
         </div>
+
         <div class="col-4">
             <div id="right">
-                <div class="drivingImage">
-                    <img src="../../../assets/img/Action/Apex/revHeart.jpg" height="100%" width="100%">
-                </div>
-
+                <img [src]="gameItem.imageUrl1" alt="" class="actionImage">
             </div>
         </div>
     </div>

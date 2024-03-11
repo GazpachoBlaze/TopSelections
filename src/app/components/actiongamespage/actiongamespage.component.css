@@ -6,7 +6,7 @@
 
 .categoryName {
     text-align: center;
-    transform: translateY(150px);
+    transform: translate(-630px, 150px);
     
 }
 
@@ -43,7 +43,7 @@
 }
 
 
-.drivingImage {
+.actionImage {
     float: right;
     flex-basis: 40%;
     max-width: 100%;
