@@ -1,27 +1,33 @@
 [
     {
       "id": 1,
-      "name1": "Super Mario Bros",
-      "description1": "Looking for something that will require a sharp mind, a keen eye, and has the ability to fufill your boredom? ACTION GAMES ARE HERE FOR YOU!!! You will find MANY different styles of gameplay that will keep you entertained and full of excitement.",
-      "imageUrl1": "https://source.unsplash.com/1600x900/?super-mario-bros",
+      "name1": "Starwars",
+      "description1" : "In the middle of the galaxy, two sides collide and fight for power as well as control. Choose to fight for good, or turn evil and go for power among all! From lightsabers to laser blasters, ANYTHING GOES and chaos is always welcomed with open arms.",
+      "image1": "/assets/img/Action/StarWars/StarWarsHome.png",
       "categoryname1": "ACTION GAMES"
     },
     {
       "id": 2,
-      "name2": "The Legend of Zelda",
-      "description2": "An epic fantasy action-adventure game with a rich story and engaging gameplay.",
-      "imageUrl2": "https://source.unsplash.com/1600x900/?the-legend-of-zelda"
+      "name2": "Fortnite",
+      "description2": "Welcome to the battle royale that always changes and constantly collaborates with many amazing artists and topics! Ever get caught under fire while out in the open? Not to worry!! Just BUILD your own cover and protect yourself easyyyy. This game includes a story mode, for those who prefer a more peaceful approach, a battle royale for those seeking a thrill and challenge, and is also contains a creative mode for designing and playing around with TONS of various minigames! There is always something to do and a genre for all.",
+      "image2": "/assets/img/Action/Fortnite/Fort4.jpg"
     },
     {
       "id": 3,
-      "name3": "Minecraft",
-      "description3": "A popular sandbox game that lets you build and explore a blocky D world.",
-      "imageUrl3": "https://source.unsplash.com/1600x900/?minecraft"
+      "name3": "Apex Legends",
+      "description3": "Load up, choose a landing spot, and hop straight into the action of gearing up for war. With this battle royale game, any weapon is better than none at all. Beat your opponents to the loot and start securing sectors as the playing field shrinks rapidly. With the help of your friends, become the last team standing and claim the victory!",
+      "image3": "/assets/img/Action/Apex/revHeart.jpg"
     },
     {
       "id": 4,
-      "name4": "PlateUp",
-      "description4": "A popular sandbox game that lets you build and explore a blocky 3D world.",
-      "imageUrl4": "https://source.unsplash.com/1600x900/?minecraft"
+      "name4": "Valorant",
+      "description4": "5 vs 5 in this team-based attack and defend strategic series. One team is trusted with achieving the goal of getting onto the designated site within the map, and planting the bomb, while the other team tries to stop them before they are able to do so. Choose your desired character CAREFULLY as with each character, they contain specific abilities geared to the vital role they play as the match progresses.",
+      "image4": "/assets/img/Action/Valorant/valBot.jpg"
+    },
+    {
+      "id": 5,
+      "name5": "Rocket League",
+      "description5": "info about rocket league",
+      "image5": "/assets/img/Action/RocketLeague/RocketChristmas.jpg"
     }
   ]

@@ -3,10 +3,11 @@
     <!-- {{ gameItem.description }} -->
     <!-- <img [src]="gameItem.imageUrl" alt=""> -->
 
+    <!-- "ACTION DESCRIPTION": "Looking for something that will require a sharp mind, a keen eye, and has the ability to fufill your boredom? ACTION GAMES ARE HERE FOR YOU!!! You will find MANY different styles of gameplay that will keep you entertained and full of excitement.", -->
 
     <h1 class="categoryName">Action Games</h1>
 
-    <div *ngFor="let gameItem of gameItems" class="row">
+    <div id="firstChoice" *ngFor="let gameItem of gameItems" class="row">
         <div class="col-4">
             <div id="left">
                 <div class="gamelistButtons">
@@ -29,7 +30,119 @@
 
         <div class="col-4">
             <div id="right">
-                <img [src]="gameItem.imageUrl1" alt="" class="actionImage">
+                <img [src]="gameItem.image1" alt="" class="actionImage">
+            </div>
+        </div>
+    </div>
+
+    <div id="secondChoice" *ngFor="let gameItem of gameItems" class="row">
+        <div class="col-4">
+            <div id="left">
+                <div class="gamelistButtons">
+                    {{ gameItem.name2 }}
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div id="center">
+
+                <div class="describeGameAction">
+                    <div id="ActiongameInfo">
+                        {{ gameItem.description2 }}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div id="right">
+                <img [src]="gameItem.image2" alt="" class="actionImage">
+            </div>
+        </div>
+    </div>
+
+    <div id="thirdChoice" *ngFor="let gameItem of gameItems" class="row">
+        <div class="col-4">
+            <div id="left">
+                <div class="gamelistButtons">
+                    {{ gameItem.name3 }}
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div id="center">
+
+                <div class="describeGameAction">
+                    <div id="ActiongameInfo">
+                        {{ gameItem.description3 }}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div id="right">
+                <img [src]="gameItem.image3" alt="" class="actionImage">
+            </div>
+        </div>
+    </div>
+
+    <div id="fourthChoice" *ngFor="let gameItem of gameItems" class="row">
+        <div class="col-4">
+            <div id="left">
+                <div class="gamelistButtons">
+                    {{ gameItem.name4 }}
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div id="center">
+
+                <div class="describeGameAction">
+                    <div id="ActiongameInfo">
+                        {{ gameItem.description4 }}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div id="right">
+                <img [src]="gameItem.image4" alt="" class="actionImage">
+            </div>
+        </div>
+    </div>
+
+    <div id="fifthChoice" *ngFor="let gameItem of gameItems" class="row">
+        <div class="col-4">
+            <div id="left">
+                <div class="gamelistButtons">
+                    {{ gameItem.name5 }}
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4">
+            <div id="center">
+
+                <div class="describeGameAction">
+                    <div id="ActiongameInfo">
+                        {{ gameItem.description5 }}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div id="right">
+                <img [src]="gameItem.image5" alt="" class="actionImage">
             </div>
         </div>
     </div>
