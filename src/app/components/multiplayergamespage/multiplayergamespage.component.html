@@ -1,28 +1,37 @@
 <div class="green">
 
-    <div class="row">
+
+
+    <h1 class="categoryName">Multiplayer Games</h1>
+
+
+    <div id="firstChoice" *ngFor="let gameItem of gameItems" class="row">
         <div class="col-4">
             <div id="left">
-                <div>
-                    <h1 class="categoryName">Multiplayer Games</h1>
+
+                <div class="gamelistButtons">
+                    {{ gameItem.name1 }}
                 </div>
+
             </div>
         </div>
+
         <div class="col-4">
             <div id="center">
 
                 <div class="describeGameMultiplayer">
-                    <p id="MultiplayergameInfo">
-                        why are you still not next to the image hello
-                        this is where i will describe the game a bit
-                    </p>
+                    <div id="MultiplayergameInfo">
+                        {{ gameItem.description1 }}
+                    </div>
                 </div>
+
             </div>
         </div>
+
         <div class="col-4">
             <div id="right">
                 <div class="multiplayerImage">
-                    <img src="../../assets/img/Multiplayer/Minecraft/MineVillageNight.png" height="100%" width="100%">
+                    <img [src]="gameItem.image1" alt="" class="multiplayerImage">
                 </div>
 
             </div>
