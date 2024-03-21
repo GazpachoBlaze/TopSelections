@@ -9,6 +9,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ActiongamespageComponent implements OnInit{
   title = "hello";
+  name = "chicken";
+  describe = "words";
+  image = "picture";
   gameItems: any[] = [];
 
   constructor(private http: HttpClient) { }

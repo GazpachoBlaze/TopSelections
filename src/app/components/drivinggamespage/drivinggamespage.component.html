@@ -1,29 +1,38 @@
 <div class="blue">
 
-    <div class="row">
+
+
+    <h1 class="categoryName">Driving Games</h1>
+
+
+    <div id="firstChoice" *ngFor="let gameItem of gameItems" class="row">
         <div class="col-4">
             <div id="left">
-                <div>
-                    <h1 class="categoryName">Driving Games</h1>
+
+                <div class="gamelistButtons">
+                    {{ gameItem.name1 }}
                 </div>
+
             </div>
         </div>
+
         <div class="col-4">
             <div id="center">
 
                 <div class="describeGameDriving">
-                    <p id="DrivinggameInfo">
-                        why are you still not next to the image hello
-                        this is where i will describe the game a bit
-                    </p>
+                    <div id="DrivinggameInfo">
+                        {{ gameItem.description1 }}
+                    </div>
                 </div>
 
             </div>
         </div>
+
         <div class="col-4">
             <div id="right">
+
                 <div class="drivingImage">
-                    <img src="../../../assets/img/Driving/Forza/forza.png" height="100%" width="100%">
+                    <img [src]="gameItem.image1" alt="" class="drivingImage">
                 </div>
 
             </div>

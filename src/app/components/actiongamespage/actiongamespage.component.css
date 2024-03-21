@@ -7,13 +7,11 @@
 .categoryName {
     text-align: center;
     transform: translate(-630px, 150px);
-    
 }
 
 .gamelistButtons {
     transform: translate(250px, 200px);
 }
-
 
 .gameButton1 {
     transform: rotate(8deg);
@@ -47,7 +45,6 @@
     float: right;
     flex-basis: 40%;
     max-width: 100%;
-    transform: translateY(150px);
 
 
 }

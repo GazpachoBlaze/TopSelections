@@ -1,18 +1,43 @@
 .yellow {
     padding-bottom: 8%;
     border: 10px solid rgb(226, 203, 2);
+    height: 800px;
 }
 
 .categoryName {
-    
-    
+    text-align: center;
+    transform: translate(-630px, 150px);
 }
+
+.gamelistButtons {
+    transform: translate(250px, 200px);
+}
+
+.gameButton1 {
+    transform: rotate(8deg);
+}
+.gameButton2 {
+    transform: rotate(8deg);
+}
+.gameButton3 {
+    transform: rotate(-8deg);
+}
+.gameButton4 {
+    transform: rotate(8deg);
+}
+.gameButton5 {
+    transform: rotate(-8deg);
+}
+
 
 
 #FightinggameInfo {
     font-size: 20px;
     padding-right: 50px;
+    text-align: center;
+    transform: translateY(150px);
 }
+
 #fightingChoices {
     font-size: 20px;
 }

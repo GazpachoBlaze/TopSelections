@@ -1,11 +1,18 @@
 <div class="yellow">
 
-    <div class="row">
+
+
+    <h1 class="categoryName">Fighting Games</h1>
+
+
+    <div id="firstChoice" *ngFor="let gameItem of gameItems" class="row">
         <div class="col-4">
             <div id="left">
-                <div>
-                    <h1 class="categoryName">Fighting Games</h1>
+
+                <div class="gamelistButtons">
+                    {{ gameItem.name1 }}
                 </div>
+
             </div>
         </div>
 
@@ -13,24 +20,25 @@
             <div id="center">
 
                 <div class="describeGameFighting">
-                    <p id="FightinggameInfo">
-                        why are you still not next to the image hello
-                        this is where i will describe the game a bit
-                    </p>
+                    <div id="FightinggameInfo">
+                        {{ gameItem.description1 }}
+                    </div>
                 </div>
+
             </div>
         </div>
 
         <div class="col-4">
             <div id="right">
-                <div class="actionImage">
-                    <img src="../../../assets/img/Fighting/UFC/ufc.png" height="100%" width="100%">
+
+                <div class="fightingImage">
+                    <img [src]="gameItem.image1" alt="" class="fightingImage">
                 </div>
 
             </div>
         </div>
-
     </div>
+
 </div>
 
 
