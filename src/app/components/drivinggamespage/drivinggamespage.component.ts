@@ -17,7 +17,7 @@ export class DrivinggamespageComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.http.get('/assets/games.json').subscribe((data: Object) => {
+    this.http.get('/assets/gamesDriving.json').subscribe((data: Object) => {
       this.gameItems = data as any[];
     });
   }
