@@ -40,6 +40,7 @@ import { Multiplayer5gameComponent } from '../components/multiplayergamespage/mu
 
 const routes: Routes = [
     { path: "headerpage", component: HeaderpageComponent},
+    { path: "", component: HomepageComponent},
     { path: "homepage", component: HomepageComponent},
 
 
