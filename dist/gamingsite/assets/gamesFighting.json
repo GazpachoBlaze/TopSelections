@@ -1,0 +1,9 @@
+[
+    {
+      "id": 1,
+      "name1": "UFC",
+      "description1" : "ufc words",
+      "image1": "/assets/img/Fighting/UFC/ufc.png",
+      "categoryname1": "FIGHTING GAMES"
+    }
+  ]
