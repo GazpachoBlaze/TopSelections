@@ -10,7 +10,10 @@
 }
 
 .gamelistButtons {
-  transform: translate(250px, 200px);
+  display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
 }
 
 .gameButton1 {
@@ -29,6 +32,10 @@
   transform: rotate(-8deg);
 }
 
+#left {
+  transform: translateY(80px);
+}
+
 #DrivinggameInfo {
   font-size: 20px;
   padding-right: 50px;
@@ -40,18 +47,17 @@
   font-size: 20px;
 }
 
-
-.drivingImage {
-  float: right;
-  flex-basis: 40%;
-  max-width: 100%;
-}
-
 .describeGameDriving {
   float: left;
   padding-left: 20px;
   font-size: 12px;
   
+}
+
+.drivingImage {
+  float: right;
+  flex-basis: 40%;
+  max-width: 100%;
 }
 
 .dropdown {

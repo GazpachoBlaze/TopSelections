@@ -10,39 +10,40 @@
 }
 
 .gamelistButtons {
-    transform: translate(250px, 200px);
-  }
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+}
   
-  .gameButton1 {
+.gameButton1 {
     transform: rotate(8deg);
-  }
-  .gameButton2 {
+}
+.gameButton2 {
     transform: rotate(8deg);
-  }
-  .gameButton3 {
+}
+.gameButton3 {
     transform: rotate(-8deg);
-  }
-  .gameButton4 {
+}
+.gameButton4 {
     transform: rotate(8deg);
-  }
-  .gameButton5 {
+}
+.gameButton5 {
     transform: rotate(-8deg);
-  }
+}
+
+#left {
+    transform: translateY(80px);
+}
 
 #MultiplayergameInfo {
     font-size: 20px;
     padding-right: 50px;
+    text-align: center;
     transform: translateY(150px);
 }
 #multiplayerChoices {
     font-size: 20px;
-}
-
-
-.multiplayerImage {
-    float: right;
-    flex-basis: 40%;
-    max-width: 100%;
 }
 
 .describeGameMultiplayer {
@@ -50,6 +51,12 @@
     padding-left: 20px;
     font-size: 12px;
     
+}
+
+.multiplayerImage {
+    float: right;
+    flex-basis: 40%;
+    max-width: 100%;
 }
 
 .dropdown {
