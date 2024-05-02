@@ -1,0 +1,13 @@
+img {
+    margin-bottom: 10px;
+    width: 640px;
+    height: 400px;
+}
+
+img:hover {
+    border-color: #007e02;
+    color: white;
+    box-shadow: 0 0.7em 0.5em -0.1em #007e02;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
