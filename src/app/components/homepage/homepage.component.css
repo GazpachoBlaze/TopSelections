@@ -1,7 +1,6 @@
 img {
-    margin-bottom: 10px;
-    width: 640px;
-    height: 400px;
+    width: 30%;
+    margin:calc(10%/7);
 }
 
 img:hover {
