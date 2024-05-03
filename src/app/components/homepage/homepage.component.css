@@ -10,3 +10,31 @@ img:hover {
     transform: translateY(-0.25em);
     cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+    img {
+        height: 30em;
+        width: 55em;
+    }
+}
+
+@media (max-width: 800px) {
+    img {
+        height: 25em;
+        width: 45em;
+    }
+}
+
+@media (max-width: 700px) {
+    img {
+        height: 20em;
+        width: 38em;
+    }
+}
+
+@media (max-width: 600px) {
+    img {
+        height: 18em;
+        width: 30em;
+    }
+}

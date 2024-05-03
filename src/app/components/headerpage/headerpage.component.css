@@ -2,6 +2,9 @@ a {
     text-decoration: none;
 }
 
+.body {
+    margin: 20px;
+}
 
 #siteTitle {
     font-size: 60px;
@@ -17,10 +20,18 @@ a {
 }
 
 ul {
+    transform: translateX(5px);
     flex: 1;
     display: flex;
     justify-content: end;
     list-style-type: none;
+}
+
+@media (max-width: 500px) {
+    ul {
+        transform: translateX(20px);
+        font-size: 23px;
+    }
 }
 
 
