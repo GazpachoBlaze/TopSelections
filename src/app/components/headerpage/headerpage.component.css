@@ -27,12 +27,137 @@ ul {
     list-style-type: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1280px) {
+    #siteTitle {
+        transform: translateX(-20px);
+        font-size: 30px;
+    }
     ul {
-        transform: translateX(20px);
-        font-size: 23px;
+        transform: translateX(-280px);
+        font-size: 20px;
     }
 }
+
+@media (max-width: 1050px) {
+    #siteTitle {
+        transform: translateX(-20px);
+        font-size: 30px;
+    }
+    ul {
+        transform: translateX(-250px);
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    #siteTitle {
+        transform: translateX(40px);
+    }
+    ul {
+        transform: translateX(0px);
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 920px) {
+    #siteTitle {
+        transform: translateX(40px);
+    }
+    ul {
+        transform: translateX(-20px);
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    #siteTitle {
+
+        transform: translate(0px, 20px);
+        font-size: 25px;
+    }
+    ul {
+        transform: translateX(-160px);
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 550px) {
+    #siteTitle {
+        transform: translateX(-10px);
+        font-size: 20px;
+    }
+    ul {
+        transform: translateX(20px);
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    #siteTitle {
+        transform: translateX(120px);
+        font-size: 30px;
+    }
+    ul {
+        transform: translateX(0px);
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    #siteTitle {
+        transform: translateX(100px);
+    }
+    ul {
+        transform: translateX(0px);
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    #siteTitle {
+        transform: translateX(100px);
+    }
+    ul {
+        transform: translateX(-50px);
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    #siteTitle {
+        transform: translateX(100px);
+    }
+    ul {
+        transform: translateX(-40px);
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    #siteTitle {
+        transform: translateX(100px);
+    }
+    ul {
+        transform: translateX(-20px);
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 350px) {
+    #siteTitle {
+        transform: translateX(100px);
+    }
+    ul {
+        transform: translateX(20px);
+        font-size: 15px;
+    }
+}
+/* @media (max-width: 400px) {
+    ul {
+        transform: translateX(85px);
+        font-size: 20px;
+    }
+} */
 
 
 

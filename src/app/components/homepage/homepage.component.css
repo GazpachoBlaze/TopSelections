@@ -11,6 +11,20 @@ img:hover {
     cursor: pointer;
 }
 
+@media (max-width: 1280px) {
+    img {
+        height: 17em;
+        width: 30em;
+    }
+}
+
+@media (max-width: 1050px) {
+    img {
+        height: 17em;
+        width: 28em;
+    }
+}
+
 @media (max-width: 1000px) {
     img {
         height: 30em;
@@ -21,7 +35,7 @@ img:hover {
 @media (max-width: 800px) {
     img {
         height: 25em;
-        width: 45em;
+        width: 46em;
     }
 }
 
@@ -36,5 +50,19 @@ img:hover {
     img {
         height: 18em;
         width: 30em;
+    }
+}
+
+@media (max-width: 550px) {
+    img {
+        height: 20em;
+        width: 30em;
+    }
+}
+
+@media (max-width: 400px) {
+    img {
+        height: 15em;
+        width: 21em;
     }
 }
