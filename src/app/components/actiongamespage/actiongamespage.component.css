@@ -2,6 +2,7 @@
     padding-bottom: 8%;
     border: 10px solid rgb(255, 0, 0);
     height: 800px;
+    margin: 10px;
 }
 
 .categoryName {
@@ -32,11 +33,6 @@
     transform: rotate(-8deg);
 }
 
-#left {
-    transform: translateY(80px);
-
-}
-
 #ActiongameInfo {
     font-size: 20px;
     padding-right: 50px;
@@ -51,7 +47,7 @@
 .describeGameAction {
     float: left;
     padding-left: 20px;
-    font-size: 12px;
+    font-size: 20px;
     
 }
 
