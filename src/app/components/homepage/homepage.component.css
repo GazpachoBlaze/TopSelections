@@ -11,6 +11,9 @@ img:hover {
     cursor: pointer;
 }
 
+.textInfo {
+    text-align: center;
+}
 @media (max-width: 1280px) {
     img {
         height: 17em;

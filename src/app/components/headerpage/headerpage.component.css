@@ -41,6 +41,7 @@ ul {
 
 .nav-links li {
   margin-right: 10px;
+  font-size: 20px;
 }
 
 .nav-links li:last-child {
